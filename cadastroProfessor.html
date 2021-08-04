@@ -1,0 +1,152 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viweport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+    <title>Cadastro do Professor</title>
+</head>
+
+<body>
+
+    <body class="banner">
+        <video autoplay muted loop>
+            <source src="movie/Writing notes near a laptop.mp4" type="video/mp4">
+        </video>
+        <form action="processaprof.php" method="post">
+            <div class="card" style="width: 65%;" id="telaCadastroProfessor">
+                <div class="form-group">
+                    <b>
+                            <font color="red">*</font>
+                            <font color="red">PREENCHIMENTO OBRIGATÓRIO</font>
+                    </b>
+                    <p></p>
+                    <font size=4>
+                        <font color="red"><U><I></U></I></font>
+                </div>
+                <p></p>
+                <b>INFORMAÇÕES PESSOAIS <I>
+                        <FONT COLOR="BLACK">PROFESSOR</FONT></b></I>
+                <HR>
+                <p></p>
+                <font color="red">*</font>NOME:
+                <div class="field">
+                    <div class="control">
+                        <input name="nome" type="text" class="input is-large" placeholder="Sua resposta">
+                    </div>
+                </div>
+                <p></p>
+                <font color="red">*</font>SENHA:
+                <div class="field">
+                    <div class="control">
+                        <input name="senhp" type="password" class="input is-large" placeholder="Senha">
+                    </div>
+                </div>
+                <p></p>
+                <font color="red">*</font>REPETIR SENHA:
+                <div class="field">
+                    <div class="control">
+                        <input name="senha" type="password" class="input is-large" placeholder="Repita a Senha">
+                    </div>
+                </div>
+                <p></p>
+                <font color="red">*</font>CPF:
+                <div class="field">
+                    <div class="control">
+                        <input name="cpf" type="text" class="input is-large" placeholder="CPF" maxlength="11">
+                    </div>
+                </div>
+                <p></p>
+                <font color="red">*</font>RG:
+                <div class="field">
+                    <div class="control">
+                        <input name="rg" type="text" class="input is-large" placeholder="RG" maxlength="7">
+                    </div>
+                </div>
+                <p></p>
+                <font color="red">*</font>DATA NASCIMENTO:
+                <div class="field">
+                    <div class="control">
+                        <input name="nascimento" type="date" class="input is-large">
+                    </div>
+                </div>
+                <p></p>
+                <b>LOCALIZAÇÃO</b>
+                <HR>
+                <p></p>
+                <font color="red">*</font>CEP:
+                <div class="field">
+                    <div class="control">
+                        <input name="cep" type="text" class="input is-large" placeholder="CEP" maxlength="8">
+                    </div>
+                    <p></p>
+                    <font color="red">*</font>ENDEREÇO:
+                    <div class="field">
+                        <div class="control">
+                            <input name="endereço" type="text" class="input is-large" placeholder="Sua resposta">
+                        </div>
+                        <p></p>
+                        COMPLEMENTO:
+                        <div class="field">
+                            <div class="control">
+                                <input name="complemento" type="text" class="input is-large" placeholder="Sua resposta">
+                            </div>
+                            <p></p>
+                            <font color="red">*</font>BAIRRO:
+                            <div class="field">
+                                <div class="control">
+                                    <input name="bairro" type="text" class="input is-large" placeholder="Sua resposta">
+                                </div>
+                                <p></p>
+                                <font color="red">*</font>TELEFONE:
+                                <div class="field">
+                                    <div class="control">
+                                        <input name="telefone" type="text" class="input is-large"
+                                            placeholder="Sua resposta">
+                                    </div>
+                                </div>
+                                <p></p>
+                                <font color="red">*</font>EMAIL:
+                                <div class="field">
+                                    <div class="control">
+                                        <input name="email" type="text" class="input is-large"
+                                            placeholder="Sua resposta">
+                                    </div>
+                                </div>
+                                <p></p>
+                                SEXO
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios2"
+                                        id="exampleRadios6" value="option6" checked>
+                                    <label class="form-check-label" for="exampleRadios6">
+                                        MASCULINO
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios2"
+                                        id="exampleRadios7" value="option7">
+                                    <label class="form-check-label" for="exampleRadios7">
+                                        FEMININO
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios2"
+                                        id="exampleRadios8" value="option8">
+                                    <label class="form-check-label" for="exampleRadios8">
+                                        PREFIRO NÃO DIZER
+                                    </label>
+                                </div>
+                                <p></p>
+                                <a href="loginProfessor.html"> <button type="button"
+                                        class="btn btn-primary btn-sm">VOLTAR</button></a>
+                                <button type="submit" class="btn btn-primary btn-sm">CADASTRAR</button>
+        </form>
+        </div>
+        </div>
+    </body>
+
+</html>

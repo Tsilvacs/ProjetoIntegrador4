@@ -1,0 +1,505 @@
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viweport" content="width=device-width, initial-scale=1.0" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="style.css">
+  <script src="js/validacoes.js"></script>
+  <script src="js/jquery.mask.min.js"></script>
+  <title>Cadastro do Aluno</title>
+</head>
+
+<body>
+
+  <body class="banner">
+    <video autoplay muted loop>
+      <source src="movie/Typing on a laptop and closing it.mp4" type="video/mp4">
+    </video>
+    <form method="post" action="processa.php">
+      <div class="card" style="width: 65%;" id="telaCadastroAluno">
+        <!--img src="..." class="card-img-top" alt="..."-->
+        <div class="form-group">
+          <b>
+            <font color="red">*</font>
+            <font color="red">PREENCHIMENTO OBRIGATÓRIO</font>
+          </b>
+          <p></p>
+          <font size=4>
+            <font color="red"><U><I></U></I></font>
+        </div>
+        <p></p>
+        <b>INFORMAÇÕES PESSOAIS <I>
+            <FONT COLOR="BLACK">ALUNO</FONT></b></I>
+        <HR>
+        <p></p>
+        <label>
+          <font color="red">*</font><b>NOME:</b>
+        </label>
+        <p></p>
+        <input name="nome" id='nome' type="text" class="input is-large" placeholder="Sua resposta">
+        <p></p>
+        <font color="red">*</font><b>SENHA:</b>
+        <p></p>
+        <input name="senha" id="senha" type="password" class="input is-large" placeholder="Senha">
+        <small id="erro-senha" class="vermelho"></small>
+        <p></p>
+        <font color="red">*</font><b>REPITA A SENHA:</b>
+        <p></p>
+        <input name="repetir_senha" id="repetirsenha" type="password" class="input is-large"
+          placeholder="Repita a Senha">
+        <small id="erro-repetirsenha" class="vermelho"></small>
+        <p></p>
+        <font color="red">*</font><b>CPF:</b>
+        <p></p>
+        <input name="cpf" type="number" class="input is-large" placeholder="CPF" maxlength=11>
+        <p></p>
+        <font color="red">*</font><b>RG:</b>
+        <p></p>
+        <input name="rg" type="text" class="input is-large" placeholder="RG" maxlength="7">
+        <p></p>
+        <font color="red">*</font><b>DATA DE NASCIMENTO:</b>
+        <p></p>
+        <input name="nascimento" type="date" class="input is-large">
+        <p></p>
+        <font color="red">*</font> <b>ENDEREÇO:</b>
+        <p></p>
+        <input name="endereço" type="text" class="input is-large" placeholder="Sua resposta">
+        <p></p>
+        <font color="red">*</font> <b>TELEFONE:</b>
+        <p></p>
+        <input name="telefone" type="text" class="input is-large" placeholder="Sua resposta" maxlength="12">
+        <p></p>
+        <font color="red">*</font><b>EMAIL:</b>
+        <p></p>
+        <input name="email" id="email" type="text" class="input is-large" placeholder="Sua resposta">
+        <p></p>
+        <hr>
+        <font color="red">*</font>
+        <font color="Blue">ESTADO CIVIL </font>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios01" id="exampleRadios1" value="option1"
+            checked>
+          <label class="form-check-label" for="exampleRadios1">
+            SOLTEIRO
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios02" id="exampleRadios2" value="option2">
+          <label class="form-check-label" for="exampleRadios2">
+            CASADO(A)
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios03" id="exampleRadios3" value="option3">
+          <label class="form-check-label" for="exampleRadios3">
+            DIVORCIADO(A)
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios04" id="exampleRadios4" value="option4">
+          <label class="form-check-label" for="exampleRadios4">
+            UNIÃO ESTÁVEL
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios05" id="exampleRadios5" value="option5">
+          <label class="form-check-label" for="exampleRadios5">
+            VIUVO(A)
+          </label>
+        </div>
+        <hr>
+        <p></p>
+        <font color="red">*</font>SEXO
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios06" id="exampleRadios6" value="option6"
+            checked>
+          <label class="form-check-label" for="exampleRadios6">
+            MASCULINO
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios07" id="exampleRadios7" value="option7">
+          <label class="form-check-label" for="exampleRadios7">
+            FEMININO
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios08" id="exampleRadios8" value="option8">
+          <label class="form-check-label" for="exampleRadios8">
+            PREFIRO NÃO DIZER
+          </label>
+        </div>
+        <hr>
+        <p></p>
+        <font color="red">*</font>SE CONSIDERA
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios09" id="exampleRadios9" value="option1"
+            checked>
+          <label class="form-check-label" for="exampleRadios9">
+            BRANCO
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios10" id="exampleRadios10" value="option2">
+          <label class="form-check-label" for="exampleRadios10">
+            NEGRO
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios11" id="exampleRadios11" value="option3">
+          <label class="form-check-label" for="exampleRadios11">
+            AMARELO
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios12" id="exampleRadios12" value="option4">
+          <label class="form-check-label" for="exampleRadios12">
+            PARDO
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios13" id="exampleRadios13" value="option5">
+          <label class="form-check-label" for="exampleRadios13">
+            INDIGENA
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios14" id="exampleRadios14" value="option6">
+          <label class="form-check-label" for="exampleRadios14">
+            OUTROS(A)
+          </label>
+        </div>
+        <p></p>
+        <b>ESCOLARIDADE</b>
+        <hr>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios15" id="exampleRadios15" value="option1"
+            checked>
+          <label class="form-check-label" for="exampleRadios15">
+            ANALFABETO
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios16" id="exampleRadios16" value="option2">
+          <label class="form-check-label" for="exampleRadios16">
+            SABE LER E ESCREVER
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios17" id="exampleRadios17" value="option3">
+          <label class="form-check-label" for="exampleRadios17">
+            ENSINO FUNDAMENTAL I (1º AO 4º ANO)
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios18" id="exampleRadios18" value="option4">
+          <label class="form-check-label" for="exampleRadios18">
+            ENSINO FUNDAMENTAL II (5º AO 9º ANO)
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios19" id="exampleRadios19" value="option5">
+          <label class="form-check-label" for="exampleRadios19">
+            ENSINO MÉDIO (1º AO 3º ANO)
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios20" id="exampleRadios20" value="option6">
+          <label class="form-check-label" for="exampleRadios20">
+            GRADUAÇÃO
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios21" id="exampleRadios21" value="option7">
+          <label class="form-check-label" for="exampleRadios21">
+            PÓS GRADUAÇÃO
+          </label>
+        </div>
+        <p></p>
+        <b>SOCIO ECONÔMICO</b>
+        <HR>
+        <p></p>
+        É APOSENTADO?
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios22" id="exampleRadios22" value="option1"
+            checked>
+          <label class="form-check-label" for="exampleRadios22">
+            SIM
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios23" id="exampleRadios23" value="option2">
+          <label class="form-check-label" for="exampleRadios23">
+            NÃO
+          </label>
+        </div>
+        <p></p>
+        ESTÁ TRABALHANDO ATUALMENTE?
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios24" id="exampleRadios24" value="option1"
+            checked>
+          <label class="form-check-label" for="exampleRadios24">
+            SIM
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios25" id="exampleRadios25" value="option2">
+          <label class="form-check-label" for="exampleRadios25">
+            NÃO
+          </label>
+        </div>
+        <p></p>
+        QUAL SUA MÉDIA SALARIAL?
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios26" id="exampleRadios26" value="option1"
+            checked>
+          <label class="form-check-label" for="exampleRadios26">
+            ATÉ 1 SALARIO MÍNIMO
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios27" id="exampleRadios27" value="option2">
+          <label class="form-check-label" for="exampleRadios27">
+            DE 2 A 3 SALARIOS MÍNIMOS
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios28" id="exampleRadios28" value="option3">
+          <label class="form-check-label" for="exampleRadios28">
+            DE 3 A 4 SALARIOS MÍNIMOS
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios29" id="exampleRadios29" value="option4">
+          <label class="form-check-label" for="exampleRadios29">
+            ACIMA DE 5 SALARIOS MÍNIMOS
+          </label>
+        </div>
+        <p></p>
+        SOBRE AS PRÓPRIAS FINANÇAS
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios30" id="exampleRadios30" value="option1"
+            checked>
+          <label class="form-check-label" for="exampleRadios30">
+            ADMINISTRA AS PRÓPRIAS FINANÇAS
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios31" id="exampleRadios31" value="option2">
+          <label class="form-check-label" for="exampleRadios31">
+            FINANÇAS ADMINISTRADA POR TERCEIROS
+          </label>
+        </div>
+        <p></p>
+        <b>AVALIAÇÃO FÍSICA</b>
+        <hr>
+        <p></p>
+        SOBRE ACESSIBILIDADE
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios32" id="exampleRadios32" value="option1"
+            checked>
+          <label class="form-check-label" for="exampleRadios32">
+            SE LOCOMOVE SEM DIFICULDADE
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios33" id="exampleRadios33" value="option2">
+          <label class="form-check-label" for="exampleRadios33">
+            SE LOCOMOVE COM DIFICULDADE
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios34" id="exampleRadios34" value="option3">
+          <label class="form-check-label" for="exampleRadios34">
+            SE LOCOMOVE COM O UDO DE AUXILIARES DE MARCHA (ANDADOR,MULETA)
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios35" id="exampleRadios35" value="option4">
+          <label class="form-check-label" for="exampleRadios35">
+            CADEIRANTE
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios36" id="exampleRadios36" value="option5">
+          <label class="form-check-label" for="exampleRadios36">
+            DEFICIENTE AUDITIVO
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios36" id="exampleRadios37" value="option6">
+          <label class="form-check-label" for="exampleRadios37">
+            DÉFICIT DE ACUIDADE AUDITIVA
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios37" id="exampleRadios38" value="option7">
+          <label class="form-check-label" for="exampleRadios38">
+            DEFICIENTE INTELECTUAL
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios38" id="exampleRadios39" value="option7">
+          <label class="form-check-label" for="exampleRadios39">
+            DEFICIENTE VISUAL
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios39" id="exampleRadios39" value="option7">
+          <label class="form-check-label" for="exampleRadios39">
+            DÉFICIT DE ACUIDADE VISUAL
+          </label>
+        </div>
+        <p></p>
+        PATOLOGIAS PRÉ EXISTENTES
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios40" id="exampleRadios40" value="option1"
+            checked>
+          <label class="form-check-label" for="exampleRadios40">
+            DIABETES
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios41" id="exampleRadios41" value="option2">
+          <label class="form-check-label" for="exampleRadios41">
+            DOENÇAS CARDIACAS
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios42" id="exampleRadios42" value="option3">
+          <label class="form-check-label" for="exampleRadios42">
+            HIPERTENSÃO ARTERIAL
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios43" id="exampleRadios43" value="option4">
+          <label class="form-check-label" for="exampleRadios43">
+            DPOC
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios44" id="exampleRadios44" value="option5">
+          <label class="form-check-label" for="exampleRadios44">
+            PARKINSON
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios45" id="exampleRadios45" value="option6">
+          <label class="form-check-label" for="exampleRadios45">
+            ALZHEIMER
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios46" id="exampleRadios46" value="option7">
+          <label class="form-check-label" for="exampleRadios46">
+            OSTEOPOROSE
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios47" id="exampleRadios47" value="option7">
+          <label class="form-check-label" for="exampleRadios47">
+            DOENÇAS DE DERME
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios48" id="exampleRadios48" value="option7">
+          <label class="form-check-label" for="exampleRadios48">
+            ALERGIAS
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios49" id="exampleRadios49" value="option7">
+          <label class="form-check-label" for="exampleRadios49">
+            DEPRESSÃO
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios50" id="exampleRadios50" value="option7">
+          <label class="form-check-label" for="exampleRadios50">
+            CANCER
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios51" id="exampleRadios51" value="option7">
+          <label class="form-check-label" for="exampleRadios51">
+            DOENÇAS UROLÓGICAS
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios52" id="exampleRadios52" value="option7">
+          <label class="form-check-label" for="exampleRadios52">
+            OUTRAS
+          </label>
+        </div>
+        <p></p>
+        <b>AUTONOMIA E INDEPENDÊNCIA</b>
+        <hr>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios53" id="exampleRadios53" value="option1"
+            checked>
+          <label class="form-check-label" for="exampleRadios53">
+            DEPENDE DE CUIDADORES
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios54" id="exampleRadios54" value="option2">
+          <label class="form-check-label" for="exampleRadios54">
+            DEPENDE DE ACOMPANHAMENTO
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios55" id="exampleRadios55" value="option3">
+          <label class="form-check-label" for="exampleRadios55">
+            INDEPENDENTE
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios56" id="exampleRadios56" value="option3">
+          <label class="form-check-label" for="exampleRadios56">
+            OUTROS
+          </label>
+        </div>
+        <p></p>
+        COMO SE DEU O INTERESSE PELO CURSO?
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios57" id="exampleRadios57" value="option1"
+            checked>
+          <label class="form-check-label" for="exampleRadios57">
+            DEMANDA ESPONTÂNEA
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios58" id="exampleRadios58" value="option2">
+          <label class="form-check-label" for="exampleRadios58">
+            ENCAMINHAMENTO POR ALGUM ORGÃO
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios59" id="exampleRadios59" value="option3">
+          <label class="form-check-label" for="exampleRadios59">
+            INFORMAÇÃO NA COMUNIDADE
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios60" id="exampleRadios60" value="option3">
+          <label class="form-check-label" for="exampleRadios60">
+            MÍDIAS
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios61" id="exampleRadios61" value="option3">
+          <label class="form-check-label" for="exampleRadios61">
+            OUTRAS
+          </label>
+        </div>
+        <p></p>
+        <a href="indexAluno.html"> <button type="button" class="btn btn-primary btn-sm">VOLTAR</button></a>
+        <button type="submit" class="btn btn-primary btn-sm">CADASTRAR</button>
+      </div>
+    </form>
+    </div>
+    </div>
+  </body>
+
+</html>

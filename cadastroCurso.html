@@ -1,0 +1,69 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viweport" content="width=device-width, initial-scale=1.0"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+        <title>Cadastro de curso</title>
+    </head>
+    <body id="fundo">
+        <p>
+        <h1>PROJETO INFORMÁTICA PARA A COMUNIDADE</h1>
+        <h2>CADASTRO DE CURSO</h2>
+        <div class="card" style="width: 60%;" id="telaCadastroCurso">
+            <!--img src="..." class="card-img-top" alt="..."-->
+            <form method="post" action="processaCurso.php">
+            <div class="card-body">
+                <p><b><font color="red">*</font> PREENCHIMENTO OBRIGATÓRIO</b></p>
+                <p></p>
+                <b>DADOS DO CURSO</b>
+                <HR>
+                INSTITUIÇÃO:
+                <div class="field">
+                    <div class="control">
+                        <input name="instituicao" type="text" class="input is-large" placeholder="Sua resposta">
+                    </div>
+                </div>
+                <p></p>
+                NOME DO CURSO: <font color="RED">*PREENCER TODOS OS CARACTERES</font>
+                <div class="field">
+                    <div class="control">
+                        <input name="nome" type="text" class="input is-large" placeholder="Sua resposta" maxlength=17>
+                    </div>
+                </div>
+                <p></p>
+                COORDENADOR:
+                <div class="field">
+                    <div class="control">
+                        <input name="coordenador" type="text" class="input is-large" placeholder="Sua resposta">
+                    </div>
+                <p></p>
+                FREQUÊNCIA MÍNIMA (%):
+                <div class="field">
+                    <div class="control">
+                        <input name="frequencia" type="number" class="input is-large" placeholder="Sua resposta">
+                    </div>
+                </div>
+                <p></p>
+                 NOTA MÍNIMA:
+                  <div class="field">
+                      <div class="control">
+                          <input name="nota" type="text" class="input is-large" placeholder="Sua resposta">
+                      </div>
+                <p></p>
+                SÉRIE/PERÍODO:
+                  <div class="field">
+                      <div class="control">
+                          <input name="serie" type="text" class="input is-large" placeholder="Sua resposta">
+                      </div>
+                  <p></p>
+                 <a href="mainAdmin.html"> <button type="button" class="btn btn-primary btn-sm">VOLTAR</button></a>
+                 <button type="submit" class="btn btn-primary btn-sm" onclick="alert('Curso cadastrado')">CADASTRAR</button>
+              </div>
+            </form>
+          </div>
+    </body>
+</html>

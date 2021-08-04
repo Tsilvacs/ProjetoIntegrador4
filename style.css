@@ -1,0 +1,1121 @@
+h1{
+    text-align:center;
+    color:aliceblue;
+}
+
+h2{
+    text-align:center;
+    color:aliceblue;
+}
+
+h3{
+    text-align:center;
+    color:aliceblue;
+}
+hr{
+    color:red;
+}
+
+#hrMain{
+    color:black;
+}
+
+#telaAcesso{
+    width: 350px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 5px 30px rgb(195, 195, 195);
+    opacity: 0.8;
+}
+
+#telaLoginAluno{
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 5px 30px rgb(195, 195, 195);
+    opacity: 0.9;
+}
+
+#telaLoginAdmin{
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 5px 30px rgb(195, 195, 195);
+    opacity: 0.9;
+}
+
+#telaLoginSenha{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 5px 30px rgb(195, 195, 195);
+    opacity: 0.9;
+}
+
+
+#telaLoginProfessor{
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 5px 30px rgb(195, 195, 195);
+    opacity: 0.9;
+}
+
+#telaCadastroAluno{
+    position: absolute;
+    top: 230%; 
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    box-shadow: 1px 5px 30px rgb(243, 243, 243);
+    opacity: 0.9;
+}
+
+#telaCadastroProfessor{
+    position: absolute;
+    top: 105%; 
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    box-shadow: 1px 5px 30px rgb(243, 243, 243);
+    opacity: 0.9;
+}
+
+#telaCadastroCurso{
+    position: absolute;
+    top: 70%; 
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    box-shadow: 1px 5px 30px rgb(243, 243, 243);
+    opacity: 0.9;
+}
+
+#telaCadastroTurma{
+    position: absolute;
+    top: 75%; 
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    box-shadow: 1px 5px 30px rgb(243, 243, 243);
+    opacity: 0.9;
+}
+
+#telaCadastroUnidade{
+    position: absolute;
+    top: 90%; 
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    box-shadow: 1px 5px 30px rgb(243, 243, 243);
+    opacity: 0.9;
+}
+
+#telaCadastroInst{
+    position: absolute;
+    top: 115%; 
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    box-shadow: 1px 5px 30px rgb(243, 243, 243);
+    opacity: 0.9;
+    }
+
+#telaCadastroAluno_Curso{
+    position: absolute;
+    top: 55%; 
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    box-shadow: 1px 5px 30px rgb(243, 243, 243);
+    opacity: 0.9;
+}
+
+#pai{
+    display: none;
+}
+
+#fundo{
+background-image: url(image/Livros.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.banner video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+}
+
+.btn1{
+    background-color:#000;
+    color:#fff;
+    width: 240px;
+    border: 3px gray solid;
+    border-radius: 15px;
+}
+
+.btn1:hover{
+    background-color:#fff;
+    color:#000;
+    width: 240px;
+    border: 3px gray solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn2{
+    background-color:#000;
+    color:#fff;
+    width: 240px;
+    border: 3px gray solid;
+    border-radius: 15px;
+}
+
+.btn2:hover{
+    background-color:#fff;
+    color:#000;
+    width: 240px;
+    border: 3px gray solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn3{
+    width: 315px;
+}
+
+.btn4{
+    width: 315px;
+}
+
+.btn6{
+    position: relative;
+    left: 32%;
+    width: 150px;
+}
+
+#buttonAluno{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#buttonProfessor{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#buttonAdmin{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sidenav {
+    height: 100%; 
+    width: 180px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 9,2%; 
+    left: 0;
+    background-color: silver; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+}
+  
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+}
+  
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+  
+.main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+}
+  
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+
+#menu{
+    font-size: small;
+}
+
+#turma1{
+    width: 1345px;
+    position: relative;
+    left: 11.5%;
+}
+
+#turma1mençao{
+    width: 1345px;
+    position: relative;
+    left: 11.5%;
+}
+
+#Turmas{
+    width: 600px;
+    position: relative;
+    left: 11.5%;
+    box-shadow: 0.5px 2.5px 15px rgb(195, 195, 195);
+}
+
+#fundomain{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+#fundomain1{
+    background-image: url(image/unnamed.jpg);
+    background-attachment: fixed;
+     background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.form-check1{
+    position: absolute;
+    top: 14%;
+    left: 42.5%;
+    color: white;
+}
+
+.form-check2{
+    position: absolute;
+    top: 19.5%;
+    left: 42.5%;
+    color: white;
+}
+
+.form-check3{
+    position: absolute;
+    top: 25%;
+    left: 42.5%;
+    color: white;
+}
+
+.form-check4{
+    position: absolute;
+    top: 30.5%;
+    left: 42.5%;
+    color: white;
+}
+
+.form-check5{
+    position: absolute;
+    top: 36%;
+    left: 42.5%;
+    color: white;
+}
+
+.form-check6{
+    position: absolute;
+    top: 41.5%;
+    left: 42.5%;
+    color: white;
+}
+
+.form-check7{
+    position: absolute;
+    top: 46.5%;
+    left: 42.5%;
+    color: white;
+}
+
+.form-check8{
+    position: absolute;
+    top: 51.5%;
+    left: 42.5%;
+    color: white;
+}
+
+.form-check9{
+    position: absolute;
+    top: 57%;
+    left: 42.5%;
+    color: white;
+}
+
+.form-check10{
+    position: absolute;
+    top: 62.5%;
+    left: 42.5%;
+    color: white;
+}
+
+.form-check11{
+    position: absolute;
+    top: 68%;
+    left: 42.5%;
+    color: white;
+}
+
+.form-check12{
+    position: absolute;
+    top: 73%;
+    left: 42.5%;
+    color: white;
+}
+
+.form-check13{
+    position: absolute;
+    top: 78%;
+    left: 42.5%;
+    color: white;
+}
+
+.form-check14{
+    position: absolute;
+    top: 83.5%;
+    left: 42.5%;
+    color: white;
+}
+
+.form-check15{
+    position: absolute;
+    top: 89%;
+    left: 42.5%;
+    color: white;
+}
+
+.form-check16{
+    position: absolute;
+    top: 94.5%;
+    left: 42.5%;
+    color: white;
+}
+
+.form-check17{
+    position: absolute;
+    top: 100%;
+    left: 42.5%;
+    color: white;
+}
+
+.form-check18{
+    position: absolute;
+    top: 105.5%;
+    left: 42.5%;
+    color: white;
+}
+
+.form-check19{
+    position: absolute;
+    top: 110.5%;
+    left: 42.5%;
+    color: white;
+}
+
+.form-check20{
+    position: absolute;
+    top: 116%;
+    left: 42.5%;
+    color: white;
+}
+
+
+#botaoFreq{
+    position: relative;
+    left: 42.3%;
+    top:  105%;
+}
+
+#btnMençao{
+    position: absolute;
+    top: 112%;
+    left: 71%;
+
+}
+
+#dtaAula{
+    position: absolute;
+    top: 8.5%;
+    left: 42.5%;
+    color: white;
+}
+
+#comentAula{
+    position: absolute;
+    top: 122%;
+    left: 0.5%;
+    width: 592px;
+}
+
+#comentMençao{
+    position: relative;
+    top: -238%;
+    left: 12.2%;
+    width: 708px;
+}
+
+#navProfessor{
+    position: fixed;
+    height: 100%;
+    top: 0;
+}
+
+h4{
+    position: relative;
+    left: 40%;
+    color: black;
+}
+
+#Turmas{
+    position: relative;
+    top: 10%;
+    left: 35%;
+}
+
+#btnC1{
+    position: absolute;
+    left: 103%;
+    top: 10%;
+}
+
+#btnC2{
+    position: absolute;
+    left: 120%;
+    top: 10%;
+}
+
+#btnC3{
+    position: absolute;
+    left: 103%;
+    top: 19%;
+}
+
+#btnC4{
+    position: absolute;
+    left: 120%;
+    top: 19%;
+}
+
+#btnC5{
+    position: absolute;
+    left: 103%;
+    top: 28%;
+}
+
+#btnC6{
+    position: absolute;
+    left: 120%;
+    top: 28%;
+}
+
+#btnC7{
+    position: absolute;
+    left: 103%;
+    top: 37%;
+}
+
+#btnC8{
+    position: absolute;
+    left: 120%;
+    top: 37%;
+}
+
+#btnC9{
+    position: absolute;
+    left: 103%;
+    top: 46%;
+}
+
+#btnC10{
+    position: absolute;
+    left: 120%;
+    top: 46%;
+}
+
+#btnC11{
+    position: absolute;
+    left: 103%;
+    top: 55%;
+}
+
+#btnC12{
+    position: absolute;
+    left: 120%;
+    top: 55%;
+}
+
+#btnC13{
+    position: absolute;
+    left: 103%;
+    top: 64%;
+}
+
+#btnC14{
+    position: absolute;
+    left: 120%;
+    top: 64%;
+}
+
+#btnC15{
+    position: absolute;
+    left: 103%;
+    top: 73%;
+}
+
+#btnC16{
+    position: absolute;
+    left: 120%;
+    top: 73%;
+}
+
+#btnC17{
+    position: absolute;
+    left: 103%;
+    top: 82%;
+}
+
+#btnC18{
+    position: absolute;
+    left: 120%;
+    top: 82%;
+}
+
+#btnC19{
+    position: absolute;
+    left: 103%;
+    top: 91%;
+}
+
+#btnC20{
+    position: absolute;
+    left: 120%;
+    top: 91%;
+}
+
+#perfilProf{
+    position: absolute;
+    left: 1%;
+    top: 20%;
+}
+
+#agenda.css{
+    background-color: #1abc9c;
+}
+
+h4{
+    position: absolute;
+    left: 1%;
+    top: 13%;
+}
+
+#msgProf{
+    position: absolute;
+    width: 800px;
+    left: 23%;
+    top: 30%;
+}
+
+#btnMsg{
+    position: absolute;
+    top: 72.5%;
+    left: 63.2%;
+}
+
+#accordionExample{
+    position: absolute;
+    width: 300px;
+    left: 79%;
+    top: 8%;
+}
+
+#accordionExample2{
+    position: absolute;
+    width: 300px;
+    left: 79%;
+    top: 53%;
+}
+
+#Turma1{
+    position: absolute;
+    left: 0%;
+    width: 600px;
+}
+
+#nota1A1{
+    position: absolute;
+    left: 57%;
+    top: 12.5%;
+}
+
+#nota2A1{
+    position: absolute;
+    left: 70%;
+    top: 12.5%;
+}
+
+#mediaA1{
+    position: absolute;
+    left: 83%;
+    top: 12.5%;
+}
+
+h6{
+    position: absolute;
+    left: 73%;
+    top: 9%;
+    color: white;
+}
+
+#nota1A2{
+    position: absolute;
+    left: 57%;
+    top: 18%;
+}
+
+#nota2A2{
+    position: absolute;
+    left: 70%;
+    top: 18%;
+}
+
+#mediaA2{
+    position: absolute;
+    left: 83%;
+    top: 18%;
+}
+
+#nota1A3{
+    position: absolute;
+    left: 57%;
+    top: 23.5%;
+}
+
+#nota2A3{
+    position: absolute;
+    left: 70%;
+    top: 23.5%;
+}
+
+#mediaA3{
+    position: absolute;
+    left: 83%;
+    top: 23.5%;
+}
+
+#nota1A4{
+    position: absolute;
+    left: 57%;
+    top: 29%;
+}
+
+#nota2A4{
+    position: absolute;
+    left: 70%;
+    top: 29%;
+}
+
+#mediaA4{
+    position: absolute;
+    left: 83%;
+    top: 29%;
+}
+
+#nota1A5{
+    position: absolute;
+    left: 57%;
+    top: 34.5%;
+}
+
+#nota2A5{
+    position: absolute;
+    left: 70%;
+    top: 34.5%;
+}
+
+#mediaA5{
+    position: absolute;
+    left: 83%;
+    top: 34.5%;
+}
+
+#nota1A6{
+    position: absolute;
+    left: 57%;
+    top: 40%;
+}
+
+#nota2A6{
+    position: absolute;
+    left: 70%;
+    top: 40%;
+}
+
+#mediaA6{
+    position: absolute;
+    left: 83%;
+    top: 40%;
+}
+
+#nota1A7{
+    position: absolute;
+    left: 57%;
+    top: 45.5%;
+}
+
+#nota2A7{
+    position: absolute;
+    left: 70%;
+    top: 45.5%;
+}
+
+#mediaA7{
+    position: absolute;
+    left: 83%;
+    top: 45.5%;
+}
+
+#nota1A8{
+    position: absolute;
+    left: 57%;
+    top: 51%;
+}
+
+#nota2A8{
+    position: absolute;
+    left: 70%;
+    top: 51%;
+}
+
+#mediaA8{
+    position: absolute;
+    left: 83%;
+    top: 51%;
+}
+
+#nota1A9{
+    position: absolute;
+    left: 57%;
+    top: 56.5%;
+}
+
+#nota2A9{
+    position: absolute;
+    left: 70%;
+    top: 56.5%;
+}
+
+#mediaA9{
+    position: absolute;
+    left: 83%;
+    top: 56.5%;
+}
+
+#nota1A10{
+    position: absolute;
+    left: 57%;
+    top: 62%;
+}
+
+#nota2A10{
+    position: absolute;
+    left: 70%;
+    top: 62%;
+}
+
+#mediaA10{
+    position: absolute;
+    left: 83%;
+    top: 62%;
+}
+
+#nota1A11{
+    position: absolute;
+    left: 57%;
+    top: 67.5%;
+}
+
+#nota2A11{
+    position: absolute;
+    left: 70%;
+    top: 67.5%;
+}
+
+#mediaA11{
+    position: absolute;
+    left: 83%;
+    top: 67.5%;
+}
+
+#nota1A12{
+    position: absolute;
+    left: 57%;
+    top: 73%;
+}
+
+#nota2A12{
+    position: absolute;
+    left: 70%;
+    top: 73%;
+}
+
+#mediaA12{
+    position: absolute;
+    left: 83%;
+    top: 73%;
+}
+
+#nota1A13{
+    position: absolute;
+    left: 57%;
+    top: 78.5%;
+}
+
+#nota2A13{
+    position: absolute;
+    left: 70%;
+    top: 78.5%;
+}
+
+#mediaA13{
+    position: absolute;
+    left: 83%;
+    top: 78.5%;
+}
+
+#nota1A14{
+    position: absolute;
+    left: 57%;
+    top: 84%;
+}
+
+#nota2A14{
+    position: absolute;
+    left: 70%;
+    top: 84%;
+}
+
+#mediaA14{
+    position: absolute;
+    left: 83%;
+    top: 84%;
+}
+
+#nota1A15{
+    position: absolute;
+    left: 57%;
+    top: 89.5%;
+}
+
+#nota2A15{
+    position: absolute;
+    left: 70%;
+    top: 89.5%;
+}
+
+#mediaA15{
+    position: absolute;
+    left: 83%;
+    top: 89.5%;
+}
+
+#nota1A16{
+    position: absolute;
+    left: 57%;
+    top: 95%;
+}
+
+#nota2A16{
+    position: absolute;
+    left: 70%;
+    top: 95%;
+}
+
+#mediaA16{
+    position: absolute;
+    left: 83%;
+    top: 95%;
+}
+
+#nota1A17{
+    position: absolute;
+    left: 57%;
+    top: 100.5%;
+}
+
+#nota2A17{
+    position: absolute;
+    left: 70%;
+    top: 100.5%;
+}
+
+#mediaA17{
+    position: absolute;
+    left: 83%;
+    top: 100.5%;
+}
+
+#nota1A18{
+    position: absolute;
+    left: 57%;
+    top: 106%;
+}
+
+#nota2A18{
+    position: absolute;
+    left: 70%;
+    top: 106%;
+}
+
+#mediaA18{
+    position: absolute;
+    left: 83%;
+    top: 106%;
+}
+
+#nota1A19{
+    position: absolute;
+    left: 57%;
+    top: 111.5%;
+}
+
+#nota2A19{
+    position: absolute;
+    left: 70%;
+    top: 111.5%;
+}
+
+#mediaA19{
+    position: absolute;
+    left: 83%;
+    top: 111.5%;
+}
+
+#nota1A20{
+    position: absolute;
+    left: 57%;
+    top: 117%;
+}
+
+#nota2A20{
+    position: absolute;
+    left: 70%;
+    top: 117%;
+}
+
+#mediaA20{
+    position: absolute;
+    left: 83%;
+    top: 117%;
+}
+
+h5{
+    text-align: center;
+}
+
+#accordionExample3{
+    position: absolute;
+    left: 14.5%;
+    top: 15%;
+}
+
+#accordionExample4{
+    position: absolute;
+    left: 78%;
+    top: 15%;
+}
+
+#atualizaçoes{
+    position: absolute;
+    top: 67.5%;
+    left: 29.7%;
+    width: 49.2%;
+    text-align: center;
+}
+
+#lastAtualizaçoes{
+    position: absolute;
+    top: 75%;
+    left: 30%;
+}
+
+#lastAtualizaçoes2{
+    position: absolute;
+    top: 75%;
+    left: 48.2%;
+}
+
+#lastAtualizaçoes3{
+    position: absolute;
+    top: 75%;
+    left: 64.1%;
+}
+
+h6{
+    color: black;
+    top: 18.5%;
+    left: 42.8%;
+    font-size:x-large
+}
+
+#liga{
+    position: absolute;
+    top: 85%;
+    color:black
+}
+
+#fundoMainAdm{
+        background-image: url(image/linguagens-de-programacao.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+}
+#fundoMain{
+        background-image: url(image/AL1497388_1800x900.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+#fundoProf{
+    background-image: url(image/professor\ \(1\).jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+}
+#cardcursoscadastrados{
+    height: 50%;
+    width: 31rem;
+    opacity: 80%;
+    top: auto;
+    position: absolute;
+}
+#perfilAdmin{
+    position: absolute;
+    left: 42%;
+    top: 23%;
+}
+.table-overflow {
+    max-height:400px;
+    overflow-y:auto;
+}
+#cardcursosdisponiveis{
+    height: 50%;
+    width: 31rem;
+    opacity: 80%;
+    top: auto;
+    left: 69%;
+    position: absolute;
+}

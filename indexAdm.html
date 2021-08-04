@@ -1,0 +1,37 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viweport" content="width=device-width, initial-scale=1.0"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+        <title>Tela de Acesso</title>
+    </head>
+    <body id="fundo">
+        <p>
+        <h1>PROJETO INFORMÁTICA PARA A COMUNIDADE</h1>
+        <h2>TELA DE ACESSO</h2>
+        <p></p>
+        <h3>ADMINISTRADOR</h3>
+        <div class="card" id="telaLoginAdmin">
+            <div class="card-body">
+                <form action="LoginADM.php" method="POST">
+                    <div class="mb-3">
+                      <label>Login</label>
+                      <input name= "usuarioadm" type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="Administrador">
+                    </div>
+                    <div class="mb-3">
+                      <label>Senha</label>
+                      <input name= "senhaadm" type="password" class="form-control" id="" placeholder="Insira sua senha">
+                    <p>
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary btn-sm">Entrar</button>
+                    </div>
+                </form> 
+                <p></p>
+            </div>
+        </div>
+    </body>
+</html>

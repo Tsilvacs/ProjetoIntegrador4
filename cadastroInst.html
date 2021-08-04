@@ -1,0 +1,136 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viweport" content="width=device-width, initial-scale=1.0"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+        <title>Cadastro de Instituição</title>
+    </head>
+    <body id="fundo">
+        <p>
+        <h1>PROJETO INFORMÁTICA PARA A COMUNIDADE</h1>
+        <h2>CADASTRO DE INSTITUIÇÃO</h2>
+        <div class="card" style="width: 60%;" id="telaCadastroInst">
+            <!--img src="..." class="card-img-top" alt="..."-->
+            <div class="card-body">
+                <p><b><font color="red">*</font> PREENCHIMENTO OBRIGATÓRIO</b></p>
+                <p></p>
+                <b>DADOS DA INSTITUIÇÃO</b>
+                <HR>
+                <p></p>
+                TIPO DE INSTITUIÇÃO
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                      PÚBLICA
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                      PRIVADA
+                    </label>
+                  </div>
+                  <p></p>
+                  CNPJ:
+                  <div class="field">
+                      <div class="control">
+                          <input name="cnpj" type="text" class="input is-large" placeholder="Sua resposta">
+                      </div>
+                  </div>
+                  <p></p>
+                  NOME DA INSTITUIÇÃO:
+                  <div class="field">
+                      <div class="control">
+                          <input name="nomeInst" type="text" class="input is-large" placeholder="Sua resposta">
+                      </div>
+                  </div>
+                  <p></p>
+                  NOME FANTASIA:
+                  <div class="field">
+                      <div class="control">
+                          <input name="nomeFant" type="text" class="input is-large" placeholder="Sua resposta">
+                      </div>
+                  </div>
+                  <p></p>
+                  NOME DO RESPONSÁVEL:
+                  <div class="field">
+                      <div class="control">
+                          <input name="nomeResp" type="text" class="input is-large" placeholder="Sua resposta">
+                      </div>
+                  </div>
+                  <p></p>
+                  NÚMERO DO RESPONSÁVEL:
+                  <div class="field">
+                      <div class="control">
+                          <input name="numeroResp" type="text" class="input is-large" placeholder="Sua resposta">
+                      </div>
+                  </div>
+                  <p></p>
+                  DATA DE CRIAÇÃO:
+                <div class="field">
+                    <div class="control">
+                        <input name="nascimento" type="date" class="input is-large">
+                    </div>
+                </div>
+                <p></p>
+                <b>ENDEREÇO</b>
+                <HR>
+                <p></p>
+                  MUNICÍPIO:
+                  <div class="field">
+                      <div class="control">
+                          <input name="municipio" type="text" class="input is-large" placeholder="Sua resposta">
+                      </div>
+                <p></p>
+                  CEP:
+                  <div class="field">
+                      <div class="control">
+                          <input name="cep" type="text" class="input is-large" placeholder="Sua resposta">
+                      </div>
+                <p></p>
+                  ENDEREÇO:
+                  <div class="field">
+                      <div class="control">
+                          <input name="endereço" type="text" class="input is-large" placeholder="Sua resposta">
+                      </div>
+                <p></p>
+                  COMPLEMENTO:
+                  <div class="field">
+                      <div class="control">
+                          <input name="complemento" type="text" class="input is-large" placeholder="Sua resposta">
+                      </div>
+                <p></p>
+                  BAIRRO:
+                  <div class="field">
+                      <div class="control">
+                          <input name="bairro" type="text" class="input is-large" placeholder="Sua resposta">
+                      </div>
+                <p></p>
+                  E-MAIL:
+                  <div class="field">
+                      <div class="control">
+                          <input name="emailInst" type="text" class="input is-large" placeholder="Sua resposta">
+                      </div>
+                <p></p>
+                  TELEFONE:
+                  <div class="field">
+                      <div class="control">
+                          <input name="telefoneInst" type="text" class="input is-large" placeholder="Sua resposta">
+                      </div>
+                <p></p>
+                  HOME PAGE:
+                  <div class="field">
+                      <div class="control">
+                          <input name="homepage" type="text" class="input is-large" placeholder="Sua resposta">
+                      </div>
+                <p></p>
+                 <a href="mainAdmin.html"><button type="button" class="btn btn-primary btn-sm">VOLTAR</button></a>
+                 <button type="submit" class="btn btn-primary btn-sm" onclick="alert('Instituição Cadastrada')">CADASTRAR INSTITUIÇÃO</button>
+            </div>
+          </div>
+    </body>
+</html>

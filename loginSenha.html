@@ -1,0 +1,41 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viweport" content="width=device-width, initial-scale=1.0"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+        <title>Restaurar senha</title>
+    </head>
+    <body id="fundo">
+        <p>
+        <h1>PROJETO INFORMÁTICA PARA A COMUNIDADE</h1>
+        <h2>RESTAURAR SENHA</h2>
+        <div class="card" id="telaLoginSenha">
+            <div class="card-body">
+                <form action="resetarSenha.php" method="POST">
+                    <div class="field">
+                      <label>Email</label>
+                      <input name= "email" type="email" class="form-control" id="" aria-describedby="emailHelp" placeholder="Informe seu e-mail">
+                    </div>
+                    <div class="mb-3">
+                      <label>Nova senha</label>
+                      <input name="senha" type="password" class="form-control" id="" placeholder="Insira sua senha">
+                    </div>
+                    <div class="mb-3">
+                        <label>Tipo de login</label>
+                        <select name="opcaoLogin">
+                            <option value="professor">Professor</option>
+                            <option value="aluno">Aluno</option>
+                        </select>
+                      </div>
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary btn-sm">Entrar</button>
+                    </div>
+                </form> 
+            </div>
+        </div>
+    </body>
+</html>

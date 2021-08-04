@@ -1,0 +1,82 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viweport" content="width=device-width, initial-scale=1.0"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+        <title>Cadastro de turma</title>
+    </head>
+    <body id="fundo">
+        <p>
+        <h1>PROJETO INFORMÁTICA PARA A COMUNIDADE</h1>
+        <h2>CADASTRO DA TURMA</h2>
+        <div class="card" style="width: 60%;" id="telaCadastroTurma">
+            <!--img src="..." class="card-img-top" alt="..."-->
+            <div class="card-body">
+                <p><b><font color="red">*</font> PREENCHIMENTO OBRIGATÓRIO</b></p>
+                <p></p>
+                <b>DADOS DA TURMA</b>
+                <HR>
+                <p></p>
+                INSTITUIÇÃO:
+                <div class="field">
+                    <div class="control">
+                        <input name="instituiçao" type="text" class="input is-large" placeholder="Sua resposta">
+                    </div>
+                </div>
+                <p></p>
+                NOME DO CURSO:
+                <div class="field">
+                    <div class="control">
+                        <input name="nome" type="text" class="input is-large" placeholder="Sua resposta">
+                    </div>
+                </div>
+                <p></p>
+                PROFESSOR:
+                <div class="field">
+                    <div class="control">
+                        <input name="nomeProf" type="text" class="input is-large" placeholder="Sua resposta">
+                    </div>
+                </div>
+                <p></p>
+                <div class="form-group col-md-2">
+                    <label for="inputEstado">PERÍODO</label>
+                    <select id="inputEstado" class="form-control">
+                      <option selected>MATUTINO</option>
+                      <option>VESPERTINO</option>
+                      <option>NOTURNO</option>
+                    </select>
+                  </div>
+                  <p></p>
+                <div class="form-group col-md-1">
+                    <label for="inputEstado">GRUPO</label>
+                    <select id="inputEstado" class="form-control">
+                      <option selected>A</option>
+                      <option>B</option>
+                      <option>C</option>
+                    </select>
+                  </div>
+                <p></p>
+                DATA INÍCIO:
+                <div class="field">
+                    <div class="control">
+                        <input name="dtaInicio" type="date" class="input is-large">
+                    </div>
+                </div>
+                <p></p>
+                DATA FIM:
+                <div class="field">
+                    <div class="control">
+                        <input name="dtaFim" type="date" class="input is-large">
+                    </div>
+                </div>
+                <p></p>
+                 <a href="mainAdmin.html"> <button type="button" class="btn btn-primary btn-sm">VOLTAR</button></a>
+                 <button type="submit" class="btn btn-primary btn-sm" onclick="alert('Turma cadastrada')">CADASTRAR</button>
+              </div>
+          </div>
+    </body>
+</html>
